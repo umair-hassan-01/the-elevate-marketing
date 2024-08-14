@@ -19,10 +19,17 @@ def get_contact(request:Request):
     print("contact form request coming")
     return templates.TemplateResponse("contact.html" , {"request":request})
 
-@app.get('/counter' , response_class= HTMLResponse)
-def get_counter(request:Request):
-    print("contact form request coming")
-    return templates.TemplateResponse("numbers.html" , {"request":request})
+@app.get('/plans' , response_class=HTMLResponse)
+def get_plans(request:Request):
+    return templates.TemplateResponse("plans.html" , {"request":request})
+
+@app.get('/faq' , response_class=HTMLResponse)
+def get_faq(request:Request):
+    return templates.TemplateResponse("faq.html" , {"request":request})
+
+@app.get('/refund-policy' , response_class=HTMLResponse)
+def get_faq(request:Request):
+    return templates.TemplateResponse("refund.html" , {"request":request})
 
 @app.get('/test')
 def test(request:Request):
