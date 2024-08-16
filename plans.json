@@ -1,0 +1,121 @@
+[
+    {
+        "name": "Sound Cloud Plan",
+        "title": "Soundcloud Growth Campaign",
+        "price": "$150",
+        "pricePeriod": "/month",
+        "features": [
+            "Soundcloud Campaign (2-3 Tracks)",
+            "Growth of Soundcloud Streams",
+            "Increased Number of Playlist Placement",
+            "Soundcloud Demographic Targeted Plays",
+            "New Reach To Your Songs/Playlists",
+            "Trend Within Your Niche Genre"
+        ]
+    },
+    {
+        "name": "Genius Blog",
+        "title": "Full Blog With Lyrics Posted For Ultimate PR",
+        "price": "$100",
+        "pricePeriod": "/month",
+        "features": [
+            "350-500 Word Article",
+            "Custom Genius Profile",
+            "Lyrics Published (1 Track)",
+            "Gives Ranking on Google",
+            "Music Video Published On Genius"
+        ]
+    },
+    {
+        "name": "YouTube Plan",
+        "title": "Exclusive YouTube Campaign",
+        "price": "$360",
+        "pricePeriod": "/month",
+        "features": [
+            "YouTube Campaign (2-3 Tracks)",
+            "30 Day Algorithm Growth",
+            "Custom Target & Marketing Engagement",
+            "YouTube Channel Growth with Subscribers"
+        ]
+    },
+    {
+        "name": "Spotify Plan",
+        "title": "Spotify Algorithm Cracked Campaign",
+        "price": "$300",
+        "pricePeriod": "/month",
+        "features": [
+            "30 Day Spotify Custom Campaign (3 Tracks)",
+            "3-10 Spotify Placements (500K+)",
+            "Widescale Facebook Ad Campaign",
+            "Spotify Follower Campaign",
+            "Spotify Royalty Growth"
+        ]
+    },
+    {
+        "name": "Gold Plan",
+        "title": "Perfect Marketing Plan To Start Growing",
+        "price": "$500",
+        "pricePeriod": "/month",
+        "features": [
+            "Complete Spotify Campaign (2 Tracks)",
+            "Complete Soundcloud OR YouTube Campaign (2 Tracks)",
+            "Music Algorithmic Growth",
+            "Personal Social Media Campaign",
+            "Personal Brand Manager"
+        ]
+    },
+    {
+        "name": "Platinum Plan",
+        "title": "Perfect For Accounts Looking to Have a Core Following",
+        "price": "$650",
+        "pricePeriod": "/month",
+        "features": [
+            "Complete Spotify Campaign (2 Tracks)",
+            "Complete Soundcloud Campaign (2 Tracks)",
+            "Complete YouTube Campaign (2 Tracks)",
+            "Custom Personalized Cover Art Edits",
+            "Personal Social Media Campaign",
+            "Personal Brand Manager"
+        ]
+    },
+    {
+        "name": "Nexuss Plan",
+        "title": "Recommended For an Account With a Strong Fanbase",
+        "price": "$799",
+        "pricePeriod": "/month",
+        "features": [
+            "30 Day Spotify Campaign (4 Tracks)",
+            "30 Day Soundcloud Marketing Campaign (5 Tracks)",
+            "30 Day YouTube Marketing Campaign (3 Tracks)",
+            "Custom Targeting & Marketing",
+            "Genius Article Post with Custom Genius Profile",
+            "Photo & Video Editors",
+            "Customized IGTV & Reel Branding",
+            "Create Your Cover Art / Promo Posts",
+            "Press Release Writing & Blog Posts",
+            "Provide Analytics & Results of Your Growth",
+            "Personal Brand Manager",
+            "Weekly Calls With the Manager to Discuss Growth"
+        ]
+    },
+    {
+        "name": "Diamond Plan",
+        "title": "The Ultimate Plan For MAX Growth",
+        "price": "$999",
+        "pricePeriod": "/month",
+        "features": [
+            "30-45 Minutes Exclusive Podcast",
+            "Customized Content For All Platforms",
+            "Complete Spotify Campaign (5 Tracks)",
+            "Spotify Curation & Playlisting",
+            "500K Reach Spotify Campaign",
+            "Complete YouTube Campaign (4 Tracks)",
+            "Viral YouTube Campaign Strategy",
+            "Create Your Cover Art / Promo Posts",
+            "Press Release Writing & Blog Posts",
+            "Provide Analytics & Results of Your Growth",
+            "Personal Brand Manager",
+            "Weekly Calls With the Manager to Discuss Growth"
+        ]
+    }
+]

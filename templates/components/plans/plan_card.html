@@ -1,0 +1,22 @@
+{% for plan in plans %}
+<div class="col-lg-4 mb-4">
+    <div class="card mb-5 mb-lg-0">
+        <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">{{ plan.name }}</h5>
+            <h6 class="card-price text-center">{{ plan.price }}<span class="period">{{ plan.pricePeriod }}</span></h6>
+            <hr>
+            <div class="card-features">
+                <ul class="fa-ul">
+                    {% for feature in plan.features %}
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>{{ feature }}</li>
+                    {% endfor %}
+                </ul>
+                <div class="d-grid">
+                    <a href="#" class="btn btn-primary text-uppercase">Buy Now</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endfor %}
