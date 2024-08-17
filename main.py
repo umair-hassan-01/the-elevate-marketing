@@ -121,6 +121,9 @@ def post_email(request:email_template):
     print(request.name)
     return "OK"
 
+@app.get('/all' , response_class=HTMLResponse)
+def get_all(request:Request):
+    return my_templates.TemplateResponse("all.html" , {"request":request})
 @app.get('/test')
 def test(request:Request):
     print("Testing..........")
