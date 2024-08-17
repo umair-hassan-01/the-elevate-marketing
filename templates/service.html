@@ -24,7 +24,7 @@
             <h1>{{name}}</h1>
         </div>
         <!-- Service End -->
-         {% for service in services%}
+         <!-- {% for service in services%}
          <div>
             <div class="accordion-container">
                 <div class="accordion-content">{{service.textContent}}</div>
@@ -38,8 +38,9 @@
                 </div>
             </div>
          </div>
-         {%endfor%}
+         {%endfor%} -->
 
+         {%include "components/myservice/spotify.html"%}
         <!-- Footer Start -->
         {%include "components/footer.html"%}
         <!-- Footer End -->
