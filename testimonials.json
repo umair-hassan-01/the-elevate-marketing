@@ -3,24 +3,24 @@
         "quote": "The team at TheElevateMarketing transformed our social media presence and significantly boosted our engagement. Their expertise in the industry is unmatched.",
         "name": "Sophia Martinez",
         "profession": "Singer-Songwriter",
-        "image": "../static/img/testimonial-1.jpg"
+        "image": "../static/images/testimonial-1.jpg"
     },
     {
         "quote": "Working with TheElevateMarketing was a game-changer for my career. Their strategic marketing elevated my Spotify streams and helped me connect with more fans.",
         "name": "Liam Thompson",
         "profession": "Digital Influencer",
-        "image": "../static/img/testimonial-2.jpg"
+        "image": "../static/images/testimonial-2.jpg"
     },
     {
         "quote": "TheElevateMarketing's creative strategies for TikTok were exactly what I needed. My follower count and engagement skyrocketed thanks to their innovative approach.",
         "name": "Noah Anderson",
         "profession": "Social Media Personality",
-        "image": "../static/img/testimonial-3.jpg"
+        "image": "../static/images/testimonial-3.jpg"
     },
     {
         "quote": "I couldn’t be happier with the results from TheElevateMarketing. Their expertise in brand growth and music marketing has truly set me apart in a crowded industry.",
         "name": "Ava Johnson",
         "profession": "Independent Artist",
-        "image": "../static/img/testimonial-4.jpg"
+        "image": "../static/images/testimonial-4.jpg"
     }
 ]
