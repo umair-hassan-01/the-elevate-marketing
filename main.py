@@ -97,6 +97,7 @@ def create_checkout_session(request:checkout_template):
 
         return {"sessionId":checkout_session["id"]}
     except Exception as e:
+        print("EXCEPTION IN CHECKOUT")
         print(e)
         
         
