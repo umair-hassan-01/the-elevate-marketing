@@ -1,0 +1,126 @@
+/* Flexbox setup for the row to ensure equal height cards */
+.pricing .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; /* Ensures all columns in the row are the same height */
+}
+
+/* Card styles */
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure the card takes up full height of its container */
+    overflow: hidden; /* Ensures content doesn't overflow the card */
+}
+
+/* Make sure the card-body takes up available space */
+.pricing .card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Allows the card-body to grow and take available space */
+    padding: 1rem; /* Adds padding inside the card body */
+}
+
+/* Space between features and button */
+.pricing .card-content {
+    flex: 1; /* Ensures space is distributed evenly and allows for content to push the button down */
+}
+
+/* Card feature list */
+.pricing ul {
+    padding: 0;
+    margin: 1.5rem 0;
+    list-style-type: none;
+}
+
+/* List items within the card */
+.pricing ul li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center; /* Vertically aligns the icon and text */
+}
+
+/* Icon styles within the list items */
+.pricing ul li .fa-li {
+    margin-right: 1rem; /* Space between icon and text */
+    flex-shrink: 0; /* Prevents the icon from shrinking */
+    position:static;
+    width: 1em; 
+}
+
+/* Styling for horizontal rule */
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+/* Card title styling */
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.image-container {
+    width: 100%;
+    overflow: hidden; /* Ensures that if the image exceeds the div's dimensions, it will be hidden */
+}
+
+.image-container img {
+    width: 100%; /* Make the image take the full width of the container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove bottom space/gap */
+}
+
+.pricing .card-features{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Card price styling */
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+/* Text muted styling */
+.pricing .text-muted {
+    color: #fdfdfd; /* Ensuring contrast */
+    opacity: 0.7;
+}
+
+/* Button styling */
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+    margin-top: auto; /* Pushes the button to the bottom of the card */
+}
+
+/* Hover effects on card */
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}
