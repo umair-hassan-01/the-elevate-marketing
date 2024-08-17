@@ -66,6 +66,24 @@
     font-weight: bold;
 }
 
+.image-container {
+    width: 100%;
+    overflow: hidden; /* Ensures that if the image exceeds the div's dimensions, it will be hidden */
+}
+
+.image-container img {
+    width: 100%; /* Make the image take the full width of the container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove bottom space/gap */
+}
+
+.pricing .card-features{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
 /* Card price styling */
 .pricing .card-price {
     font-size: 3rem;

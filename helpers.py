@@ -8,3 +8,7 @@ class Helper:
     def load_plans(self)->List[dict]:
         with open("plans.json" , 'r') as file:
             return json.load(file)
+        
+    def load_services(self)->dict:
+        with open("services.json" , 'r') as file:
+            return json.load(file)

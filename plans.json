@@ -1,5 +1,6 @@
 [
     {
+        "id":"SOUND_CLOUD",
         "name": "Sound Cloud Plan",
         "title": "Soundcloud Growth Campaign",
         "price": "$150",
@@ -14,6 +15,7 @@
         ]
     },
     {
+        "id":"GENIUS_BLOG",
         "name": "Genius Blog",
         "title": "Full Blog With Lyrics Posted For Ultimate PR",
         "price": "$100",
@@ -27,6 +29,7 @@
         ]
     },
     {
+        "id":"YOUTUBE_PLAN",
         "name": "YouTube Plan",
         "title": "Exclusive YouTube Campaign",
         "price": "$360",
@@ -39,6 +42,7 @@
         ]
     },
     {
+        "id":"SPOTIFY_PLAN",
         "name": "Spotify Plan",
         "title": "Spotify Algorithm Cracked Campaign",
         "price": "$300",
@@ -52,6 +56,7 @@
         ]
     },
     {
+        "id":"GOLD_PLAN",
         "name": "Gold Plan",
         "title": "Perfect Marketing Plan To Start Growing",
         "price": "$500",
@@ -65,6 +70,7 @@
         ]
     },
     {
+        "id":"PLATINUM_PLAN",
         "name": "Platinum Plan",
         "title": "Perfect For Accounts Looking to Have a Core Following",
         "price": "$650",
@@ -79,7 +85,8 @@
         ]
     },
     {
-        "name": "Nexuss Plan",
+        "id":"THE_ELEVATE_PLAN",
+        "name": "The Elevate Plan",
         "title": "Recommended For an Account With a Strong Fanbase",
         "price": "$799",
         "pricePeriod": "/month",
@@ -99,6 +106,7 @@
         ]
     },
     {
+        "id":"DIAMOND_PLAN",
         "name": "Diamond Plan",
         "title": "The Ultimate Plan For MAX Growth",
         "price": "$999",
