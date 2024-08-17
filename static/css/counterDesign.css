@@ -31,6 +31,13 @@
     font-weight: 600;
     font-size: 5em;
   }
+  .counter-container span{
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 5em;
+  }
   span.counter-text {
     color: #e0e0e0;
     font-size: 1rem;

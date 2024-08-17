@@ -68,13 +68,7 @@
         },
         {
             "textContent": "Want to take your SoundCloud presence to the next level? Our expert team is ready to offer creative strategies and insights to unlock your music’s full potential. Let’s collaborate to turn your tracks into hits and make a real difference.",
-            "images": [
-                "../static/images/soundcloud-services/one.PNG",
-                "../static/images/soundcloud-services/two.PNG",
-                "../static/images/soundcloud-services/three.PNG",
-                "../static/images/soundcloud-services/four.PNG",
-                "../static/images/soundcloud-services/five.PNG"
-            ]
+            "images": []
         }
     ],
     "spotify-services": [

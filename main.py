@@ -71,6 +71,7 @@ def get_services(request:Request):
     path_name = request.url.path[1:]
     services = helper.load_services()
     service_name = " ".join(path_name.split('-')).capitalize()
+    
     return my_templates.TemplateResponse("service.html" , {"request":request ,'name':service_name, 'services':services[path_name]})
 
 @app.get('/applemusic-services' , response_class=HTMLResponse)
