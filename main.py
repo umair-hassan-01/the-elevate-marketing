@@ -127,6 +127,4 @@ def get_all(request:Request):
 @app.get('/test')
 def test(request:Request):
     print("Testing..........")
-    return {
-        "message":"server is up and running"
-    }
+    return "OK"
